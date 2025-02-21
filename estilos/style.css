@@ -2,8 +2,8 @@
 
 /*
     Paleta de cores
-    verde: #49a09d
-    Lilás: #5f2c82
+    verde: #007204
+    Vermelho: #ab0000
 */
 
 *{
@@ -14,39 +14,43 @@
 }
 
 body, html{
-    background-color: #5f2c82;
+    background-color: #ab0000;
     height: 100vh;
     width: 100vw;
 }
 
 main{
+    position: relative;
     width: 100vw;
     height: 100vh;
-    position: relative;
+    
 }
 
 #login{
-    background-color: white;
-    width: 250px;
-    height: 500px;
-    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.494);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    
 }
 
 div#imagem{
-    background: #5f2c82 url(../imagens/pexels-joelalencar-20886251.jpg) no-repeat;
-    height: 200px;
-    background-size: cover;
-    border-radius: 20px 20px 0px 0px;
     display: block;
+    background: #ab0000 url(../imagens/pexels-joelalencar-20886251.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
 }
 
 div#formulario{
-    padding: 10px;
     display: block;
-
+    padding: 10px;
 }
