@@ -54,3 +54,25 @@ div#formulario{
     display: block;
     padding: 10px;
 }
+
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#formulario > p{
+    font-size: 0.8em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#iconeLogin{
+    width: 20px;
+    height: 20px;
+}
+
+#iconeSenha{
+    width: 20px;
+    height: 20px;
+}
