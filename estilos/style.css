@@ -49,7 +49,7 @@ main{
 
 div#imagem{
     display: block;
-    background: var(--vermelho) url(../imagens/pexels-joelalencar-20886251.jpg) no-repeat;
+    background: var(--verde) url(../imagens/pexels-joelalencar-20886251.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 200px;
@@ -72,6 +72,20 @@ div#formulario{
     margin-right: 10px;
 }
 
+.campo{
+    background-color: var(--vermelho);
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+
+}
+
+.campo > label{
+    display: none;
+}
+
 #iconeLogin{
     width: 20px;
     height: 20px;
@@ -80,4 +94,39 @@ div#formulario{
 #iconeSenha{
     width: 20px;
     height: 20px;
+}
+
+.botaoEntrar{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--verde);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botaoEntrar:hover{
+    background-color: #012502;
+}
+
+.botao{
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    color: #012502;
+    background-color: white;
+    border: 1px solid #012502;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.botao:hover{
+    background-color: #007104;
 }
